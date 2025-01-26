@@ -1,15 +1,15 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title:              UVA Night Train Ultimate
+email:              virginianighttrain@gmail.com
+description:        Men's Ultimate Frisbee at the University of Virginia
+author:             UVA Night Train
+baseurl:            "/"
+url:                "https://nanduruganesh.github.io/NightTrainWebpage/"
 
 # Social Profiles
-twitter_username:   SBootstrap
+twitter_username:   nighttrainatuva
 github_username:    StartBootstrap
 facebook_username:  StartBootstrap
-instagram_username:  
+instagram_username: nighttrainuva
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
