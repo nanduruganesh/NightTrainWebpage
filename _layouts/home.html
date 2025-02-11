@@ -6,7 +6,7 @@ layout: default
 {% if page.background %}
 <header class="masthead">
   <video autoplay muted loop id="bg-video" preload="auto">
-    <source src="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" type="video/webm">
+    <source src="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   {% else %}
@@ -17,10 +17,14 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>
-            {% if site.description %}
-            <span class="subheading">{{ site.description }}</span>
-            {% endif %}
+            <h1>UVA Night Train</h1>
+
+            <!-- Code for random quotes -->
+            <span class="quote">
+              <div id="quote" onclick="displayRandomQuote()"></div>
+              <script src="/assets/quotes.js"></script>
+            </span>
+            
           </div>
         </div>
       </div>

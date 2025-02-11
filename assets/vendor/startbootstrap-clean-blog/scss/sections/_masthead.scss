@@ -26,8 +26,8 @@ header.masthead {
         height: 100%;
         width: 100%;
         background-color: $gray-900;
-        background: rgba(0, 0, 0, 0.5);
-        opacity: 0.5;
+        background: rgb(35, 45, 75);
+        opacity: 0.55;
     }
 
     .page-heading,
@@ -47,9 +47,18 @@ header.masthead {
 
         h1 {
             font-size: 50px;
-            margin-top: 0;
+            margin-top: 7%;
         }
-
+        .quote {
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 1.1;
+            display: block;
+            margin: 10px 0 0;
+            font-family: $headings-font-family;
+            cursor: pointer; /* Indicate it's clickable */
+            transition: opacity 0.3s ease-in-out;
+        }
         .subheading {
             font-size: 24px;
             font-weight: 300;
