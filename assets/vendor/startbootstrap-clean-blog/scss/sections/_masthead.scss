@@ -12,7 +12,7 @@ header.masthead {
     // TIP: Background images are set within the HTML using inline CSS!
     margin-bottom: 50px;
     background: no-repeat center center;
-    background-color: $gray-600;
+    background-color: $ntblue;
     background-attachment: scroll;
     position: relative;
     background-size: cover;
@@ -25,8 +25,7 @@ header.masthead {
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: $gray-900;
-        background: rgb(35, 45, 75);
+        background-color: $ntblue;
         opacity: 0.55;
     }
 
@@ -114,4 +113,16 @@ header.masthead {
             }
         }
     }
+}
+
+header.masthead_small {
+    // TIP: Background images are set within the HTML using inline CSS!
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: $ntblue;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+    height: 10vh;
 }

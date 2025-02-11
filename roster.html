@@ -1,0 +1,70 @@
+---
+layout: custom_roster
+---
+
+<h1> Team Roster </h1>
+
+<style>
+    .roster-container {
+        width: 100%; /* Make it full width */
+        max-width: none; /* Remove any max width restrictions */
+        padding: 20px;
+        background: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+    text-align: center;
+    }
+
+    table {
+    width: 100%; /* Makes the table take full width */
+    border-collapse: collapse;
+    margin-top: 10px;
+    }
+
+    th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+
+    /* Style for coaches (bold) */
+    .coach {
+    font-weight: bold;
+    }
+
+    /* Style for captains (underlined) */
+    .captain {
+    text-decoration: underline;
+    }
+
+    /* Fade-in effect for rows */
+    .fade-in {
+    opacity: 0;
+    animation: fadeIn ease-in 0.5s forwards;
+    }
+
+    @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); } /* Slight slide-up effect */
+    to { opacity: 1; transform: translateY(0); }
+    }
+
+</style>
+
+<div class="roster-container">
+    <table id="roster-table">
+        <colgroup>
+            <col span="1" style="width: 50%;">
+            <col span="1" style="width: 50%;">
+         </colgroup>
+         <h3>
+            2024-25
+         </h3>
+        <tbody id="roster-body">
+            <!-- JavaScript will populate this -->
+        </tbody>
+    </table>
+</div>
+
+<script src="assets/load_roster.js"></script>

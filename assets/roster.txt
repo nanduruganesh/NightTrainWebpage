@@ -1,0 +1,35 @@
+#, Akiva, captain
+#, Andy, player
+#, Ben Chelsea, rookie
+#, Ben Tnaib, player
+#, Calvin, player
+#, Connor, player
+#, Corey, player
+#, Farhan, player
+#, Fran, player
+#, Ganesh, player
+#, Guy, player
+#, Huddy, player
+#, Jack Vietmeyer, player
+#, Jaxon, player
+#, Joe Dokken, player
+#, JRo, player
+#, Keegan, player
+#, Kian, player
+#, Mallen, player
+#, Messmore, player
+#, Nic, player
+#, Owen, player
+#, Patrick Fox, player
+#, Phillip, player
+#, Rocket, player
+#, Sammy, player
+#, Tyler, player
+#, Will, player
+#, Zeya, player
+#, Joe, player
+#, Kennedy, player
+#, Klem, player
+#, Letai, player
+#, Summer, player
+#, Yrt, player
