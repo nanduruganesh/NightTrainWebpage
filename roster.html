@@ -5,6 +5,56 @@ layout: custom_roster
 <h1> Team Roster </h1>
 
 <style>
+    :root {
+        --coach-color: #800080;
+        --captain-color: #6495ED;
+        --rookie-color: #00A36C;
+    }
+
+    .legend {
+        display: flex;
+        justify-content: center; /* Center-align the legend */
+        gap: 30px; /* Add space between items */
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .legend-box {
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-right: 5px;
+        border-radius: 3px;
+    }
+
+    /* Use variables for colors */
+    .Coach.legend-box {
+        background-color: var(--coach-color);
+    }
+
+    .Captain.legend-box {
+        background-color: var(--captain-color);
+        border-bottom: 2px solid var(--captain-color); /* Represent underline */
+    }
+
+    .Rookie.legend-box {
+        background-color: var(--rookie-color);
+    }
+
+    /* Apply the same colors to the table */
+    .Coach {
+        color: var(--coach-color);
+    }
+
+    .Captain {
+        color: var(--captain-color);
+    }
+
+    .Rookie {
+        color: var(--rookie-color);
+    }
+
     .roster-container {
         width: 100%; /* Make it full width */
         max-width: none; /* Remove any max width restrictions */
@@ -29,16 +79,6 @@ layout: custom_roster
     border-bottom: 1px solid #ddd;
     }
 
-    /* Style for coaches (bold) */
-    .coach {
-    font-weight: bold;
-    }
-
-    /* Style for captains (underlined) */
-    .captain {
-    text-decoration: underline;
-    }
-
     /* Fade-in effect for rows */
     .fade-in {
     opacity: 0;
@@ -49,22 +89,29 @@ layout: custom_roster
     from { opacity: 0; transform: translateY(10px); } /* Slight slide-up effect */
     to { opacity: 1; transform: translateY(0); }
     }
+    
 
 </style>
 
 <div class="roster-container">
+    <!-- Legend Section -->
+    <div class="legend">
+        <div><span class="legend-box Captain"></span> Captain</div>
+        <div><span class="legend-box Rookie"></span> Rookie</div>
+        <div><span class="legend-box Coach"></span> Coach</div>
+    </div>
+    
     <table id="roster-table">
         <colgroup>
             <col span="1" style="width: 50%;">
             <col span="1" style="width: 50%;">
-         </colgroup>
-         <h3>
-            2024-25
-         </h3>
+        </colgroup>
+        <h3>2024-25</h3>
         <tbody id="roster-body">
             <!-- JavaScript will populate this -->
         </tbody>
     </table>
+
 </div>
 
 <script src="assets/load_roster.js"></script>
