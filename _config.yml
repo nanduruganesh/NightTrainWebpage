@@ -3,7 +3,8 @@ email:              virginianighttrain@gmail.com
 description:        
 author:             UVA Night Train
 baseurl:            "/"
-url:                "https://nanduruganesh.github.io/NightTrainWebpage/"
+url:                "https://uvanighttrain.com/"
+#"https://nanduruganesh.github.io/NightTrainWebpage/"
 
 # Social Profiles
 twitter_username:   nighttrainatuva
