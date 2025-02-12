@@ -1,35 +1,35 @@
-#, Akiva, captain
-#, Andy, player
-#, Ben Chelsea, rookie
-#, Ben Tnaib, player
-#, Calvin, player
-#, Connor, player
-#, Corey, player
-#, Farhan, player
-#, Fran, player
-#, Ganesh, player
-#, Guy, player
-#, Huddy, player
-#, Jack Vietmeyer, player
-#, Jaxon, player
-#, Joe Dokken, player
-#, JRo, player
-#, Keegan, player
-#, Kian, player
-#, Mallen, player
-#, Messmore, player
-#, Nic, player
-#, Owen, player
-#, Patrick Fox, player
-#, Phillip, player
-#, Rocket, player
-#, Sammy, player
-#, Tyler, player
-#, Will, player
-#, Zeya, player
-#, Joe, player
-#, Kennedy, player
-#, Klem, player
-#, Letai, player
-#, Summer, player
-#, Yrt, player
+19, Akiva, Captain
+0, Andy, Player
+3, Ben Chelsea, Rookie
+40, Ben Tnaib, Player
+7, Calvin, Captain
+17, Connor, Player
+56, Corey, Rookie
+1, Farhan, Player
+14, Fran, Rookie
+34, Ganesh, Captain
+99, Guy, Player
+27, Huddy, Player
+18, Jack Vietmeyer, Player
+74, Jaxon, Rookie
+5, Joe Dokken, Player
+20, JRo, Player
+11, Keegan, Rookie
+43, Kian, Player
+29, Mallen, Captain
+8, Messmore, Player
+2, Nic, Player
+33, Owen, Player
+42, Patrick Fox, Player
+23, Phillip, Rookie
+12, Rocket, Player
+10, Sammy, Rookie
+6, Tyler, Player
+81, Will, Player
+52, Zeya, Player
+, Joe, Coach
+, Kennedy, Coach
+, Klem, Coach
+, Letai, Coach
+, Summer, Coach
+, Yrt, Coach
