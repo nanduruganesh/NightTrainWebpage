@@ -38,10 +38,14 @@ layout: default
         {{ content }}
 
         <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
+        {% for post in site.posts limit:5%}
 
         <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+          {% if post.link %}
+          <a href="{{ post.link }}">
+          {% else %}
+          <a href="#" onclick="return false;">
+          {% endif %}
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.subtitle %}
             <h3 class="post-subtitle">{{ post.subtitle }}</h3>
@@ -56,7 +60,7 @@ layout: default
             {{ site.author }}
             {% endif %}
             on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
+            {{ post.date | date: '%B %d, %Y' }}       
           </p>
         </article>
 
@@ -66,7 +70,7 @@ layout: default
 
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{"/news" | relative_url }}">See More &rarr;</a>
         </div>
 
       </div>
