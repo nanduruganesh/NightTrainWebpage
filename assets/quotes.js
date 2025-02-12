@@ -1,4 +1,5 @@
 let quotes = []; // Store quotes globally
+let previousQuote = ""; // Store the previous quote
 
 // Function to fetch and store quotes
 async function loadQuotes() {
@@ -23,8 +24,15 @@ function displayRandomQuote() {
         quoteElement.style.opacity = "0";
 
         setTimeout(() => {
-            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+            // Select a random quote that is different from the previous one
+            let randomQuote;
+            do {
+                randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+            } while (randomQuote === previousQuote); // Ensure it's not the same as the last one
+
             quoteElement.innerText = randomQuote;
+            previousQuote = randomQuote; // Update the previous quote
+
             // Fade in effect
             quoteElement.style.opacity = "1";
         }, 300); // Matches transition duration
