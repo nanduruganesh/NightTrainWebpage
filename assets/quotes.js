@@ -3,7 +3,7 @@ let quotes = []; // Store quotes globally
 // Function to fetch and store quotes
 async function loadQuotes() {
     try {
-        const response = await fetch('/assets/quotes.txt'); // Fetch the quotes file
+        const response = await fetch('assets/quotes.txt'); // Fetch the quotes file
         const text = await response.text(); // Read as text
         quotes = text.split('\n').filter(q => q.trim() !== ""); // Convert to array and remove empty lines
 

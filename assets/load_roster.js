@@ -1,6 +1,6 @@
 async function loadRoster() {
     try {
-        const response = await fetch('/assets/roster.txt'); // Fetch roster data
+        const response = await fetch('assets/roster.txt'); // Fetch roster data
         const text = await response.text(); // Read as text
         const lines = text.split('\n').filter(line => line.trim() !== ""); // Split into lines and remove empty ones
 
