@@ -5,7 +5,7 @@ layout: default
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead">
-  <video autoplay muted loop id="bg-video" preload="auto">
+  <video autoplay muted loop playsinline id="bg-video" preload="auto">
     <source src="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
