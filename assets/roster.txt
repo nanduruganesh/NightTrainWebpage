@@ -27,9 +27,9 @@
 6, Tyler Husband, Player
 81, Will Girard, Player
 52, Zeya Min-Fink, Player
-, Joe, Coach
-, Kennedy, Coach
-, Klem, Coach
-, Letai, Coach
-, Summer, Coach
-, Yrt, Coach
+, Joe Spaeth, Coach
+, Andrew Kennedy, Coach
+, Michael Klemencic, Coach
+, Chris Letai, Coach
+, Summer Ahrens, Coach
+, Tanner Dellet-Wion, Coach
