@@ -46,3 +46,12 @@ layout: custom_roster
         <iframe width="560" height="315" src="https://youtu.be/rHw9P7YH16E"></iframe>
     </div>
 </main>
+
+<script>
+    if (window.screen.width < 600) {
+        Array.from(document.getElementsByTagName("iframe")).forEach(frame => {
+            frame.width = 300;
+            frame.height = 169;
+        });
+    }
+</script>
