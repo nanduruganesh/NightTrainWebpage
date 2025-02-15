@@ -4,4 +4,4 @@ node_modules
 Gemfile.lock
 *.gem
 backup_media
-./vendor/bundle
+vendor/bundle
