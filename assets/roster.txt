@@ -1,6 +1,6 @@
 19, Akiva Dienstfrey, Captain
 0, Andy Thepvongs, Player
-3, Ben Chelsea, Rookie
+3, Ben Curulla, Rookie
 40, Ben Tnaib, Player
 7, Calvin Roe, Captain
 17, Connor McCartney, Player
